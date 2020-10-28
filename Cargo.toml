@@ -1,0 +1,31 @@
+[package]
+name = "pipes"
+version = "0.1.0"
+authors = ["jazmin-uala <jazmin.ferreiro@uala.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "example1pipes"
+path = "src/example1pipes/main.rs"
+
+[[bin]]
+name = "example2pipes"
+path = "src/example2pipes/main.rs"
+
+[[bin]]
+name = "example3pipes"
+path = "src/example3pipes/main.rs"
+
+[[bin]]
+name = "chat"
+path = "src/example4pipes/chat/main.rs"
+
+[[bin]]
+name = "example4pipes"
+path = "src/example4pipes/main.rs"
+
+
+[dependencies]
+nix = "0.18.0"
